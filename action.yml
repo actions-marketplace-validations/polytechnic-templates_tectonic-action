@@ -1,12 +1,12 @@
 # action.yml
-name: 'Compile LateX'
-description: 'Compile Latex files easily !'
+name: 'Compile your moderncv'
+description: ''
 branding:
   icon: file-text
   color: blue
 inputs:
   tex_path:  # id of input
-    description: 'Path of Tex File'
+    description: 'Path to TeX file'
     required: true
   push:
     description: 'String stating whether to push output PDF, PDF will only be pushed in case of "yes"'
