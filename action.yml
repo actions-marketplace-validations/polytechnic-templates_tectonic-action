@@ -1,5 +1,5 @@
 # action.yml
-name: 'Compile your moderncv'
+name: 'Compile your moderncv and other LaTeX docs'
 description: ''
 branding:
   icon: file-text
