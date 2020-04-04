@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM tiulpin/tectonic-image:latest
+FROM tiulpin/tectonic-docker:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
