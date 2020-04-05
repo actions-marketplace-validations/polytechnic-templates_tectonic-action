@@ -1,4 +1,4 @@
-# Latex Action 
+# LaTeX Action 
 
 This action compiles latex files using [Tectonic](https://tectonic-typesetting.github.io/en-US/), which automatically downloads necessary dependencies, and compiles to pdf.
 
@@ -6,7 +6,7 @@ This action compiles latex files using [Tectonic](https://tectonic-typesetting.g
 
 ### `tex-path`
 
-**Required** Path of tex, xtx file to compile.
+**Required** Path to tex, xtx file to compile.
 
 ### `push`
 
@@ -28,7 +28,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Compilation
-      uses: vinay0410/tectonic-action@master
+      uses: tiulpin/tectonic-action@master
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -47,7 +47,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Compilation
-      uses: vinay0410/tectonic-action@master
+      uses: tiulpin/tectonic-action@master
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
